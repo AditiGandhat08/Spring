@@ -12,8 +12,10 @@
 	<property name="connection.username">dbuser</property>
 	<property name="connection.password">Squ@d123</property>
 	
-	
-	
 	<mapping resource="FoodPlaza.hbm.xml"/>
+	
+	<mapping class="AnnotationDemo.Customer"/>
+	<mapping class="AnnotationDemo.Department"/>
+	<mapping class="AnnotationDemo.Institute"/>
 	</session-factory>
 	</hibernate-configuration>
